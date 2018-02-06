@@ -1,0 +1,16 @@
+permalink: /posts/:year/:month/:day/:title
+markdown: kramdown
+repository: ChingChuan-Chen/ChingChuan-Chen.github.io
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  enable_coderay: true
+  hard_wrap: false
+ 
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-github-metadata
